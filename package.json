@@ -1,0 +1,29 @@
+{
+  "name": "auroratube-userservice-proxy",
+  "version": "1.0.0",
+  "description": "reverse proxy for auroratube userservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aurora-Borealis-hr/auroratube-userservice-proxy.git"
+  },
+  "keywords": [
+    "proxy",
+    "auroratube",
+    "userservice",
+    "microservices"
+  ],
+  "author": "Eric Chi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aurora-Borealis-hr/auroratube-userservice-proxy/issues"
+  },
+  "homepage": "https://github.com/Aurora-Borealis-hr/auroratube-userservice-proxy#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "http-proxy": "^1.17.0"
+  }
+}
